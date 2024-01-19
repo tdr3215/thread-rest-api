@@ -6,6 +6,7 @@ config();
 const app = express();
 const port: string | number = process.env.PORT || 3000;
 // Middleware
+
 app.use('/api', allRoutes);
 
 // Initialize App
